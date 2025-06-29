@@ -1,6 +1,7 @@
-# Docx_flask_app
+Docx_flask_app
+==============
+
 Smart Document Assistant
-========================
 
 A Python-based smart assistant that allows users to upload a PDF or TXT document and interact with it using natural language. The app can extract content, summarize it, answer user questions based on the document, and generate logical questions for self-evaluation.
 
@@ -38,14 +39,16 @@ Docx_flask_app/
 How to Run the App
 ------------------
 
-1. Clone the repository:
-   git clone https://github.com/your-username/Docx_flask_app.git
-   cd Docx_flask_app
+1. Clone the repository and move into the project folder
 
 2. Create and activate a virtual environment:
-   python -m venv venv
-   venv\Scripts\activate      (for Windows)
-   source venv/bin/activate   (for macOS/Linux)
+   - For Windows:
+     python -m venv venv
+     venv\Scripts\activate
+
+   - For macOS/Linux:
+     python3 -m venv venv
+     source venv/bin/activate
 
 3. Install dependencies:
    pip install -r requirements.txt
@@ -56,12 +59,10 @@ How to Run the App
 Best Practices
 --------------
 
-- Do NOT upload the virtual environment (`venv/`) folder.
-- Use `.gitignore` to exclude environment and cache files.
-- All required packages are listed in `requirements.txt`.
+- I Didn't NOT upload the virtual environment (venv) folder.
+
 
 Credits
 -------
 
 Developed by Gsm Ravi Charan using Hugging Face models and open-source tools.
-
